@@ -13,7 +13,7 @@ public class TestCalculadoraComissao {
 		double valor = 100;
 		double esperado = 5;
 		
-		double retorno = CalculadoraComissao.calcula(valor);
+		double retorno = new CalculadoraComissao().calcula(valor);
 		
 		assertEquals(esperado, retorno, 0);
 	}
@@ -24,7 +24,7 @@ public class TestCalculadoraComissao {
 		double valor = 111.5;
 		double esperado = 5.57;
 		
-		double retorno = CalculadoraComissao.calcula(valor);
+		double retorno = new CalculadoraComissao().calcula(valor);
 		
 		assertEquals(esperado, retorno, 0);
 	}
@@ -36,7 +36,7 @@ public class TestCalculadoraComissao {
 		int valor = 1;
 		double esperado = 0.05;
 		
-		double retorno = CalculadoraComissao.calcula(valor);
+		double retorno = new CalculadoraComissao().calcula(valor);
 		
 		assertEquals(esperado, retorno,0);
 	}
@@ -48,7 +48,7 @@ public class TestCalculadoraComissao {
 		double valor = 11000;
 		double esperado = 660;
 		
-		double retorno = CalculadoraComissao.calcula(valor);
+		double retorno = new CalculadoraComissao().calcula(valor);
 		
 		assertEquals(esperado, retorno, 0);
 	}

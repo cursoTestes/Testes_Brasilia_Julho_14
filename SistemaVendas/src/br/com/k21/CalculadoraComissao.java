@@ -2,7 +2,7 @@ package br.com.k21;
 
 public class CalculadoraComissao {
 
-	public static double calcula(double valor) {
+	public double calcula(double valor) {
 		double comissao=0;
 		if(valor <= 10000){
 			comissao = valor * 0.05;

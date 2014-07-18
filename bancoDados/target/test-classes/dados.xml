@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<dataset>
+
+	<vendedor id="1" nome="John Doe" />
+	<vendedor id="2" nome="CFC" />
+	<vendedor id="3" nome="Rodrigo" />
+	<vendedor id="5" nome="Magno" />
+	<vendedor id="6" nome="Arlindo Cruz" />
+	<vendedor id="7" nome="Toledo" />
+
+	<venda id="1" valor="100" dataVenda="2011-02-03" />
+	<vendaVendedor id="1" valorParticipacao="100" venda_id="1" vendedor_id="1" />
+	
+	<venda id="2" valor="200" dataVenda="2011-02-03" />
+	<vendaVendedor id="2" valorParticipacao="200" venda_id="2" vendedor_id="2" />
+	
+	<venda id="3" valor="300" dataVenda="2011-02-03" />
+	<vendaVendedor id="3" valorParticipacao="300" venda_id="3" vendedor_id="2" />
+	
+	<venda id="4" valor="400" dataVenda="2012-02-03" />
+	<vendaVendedor id="5" valorParticipacao="400" venda_id="4" vendedor_id="2" />
+	
+	<venda id="5" valor="1000" dataVenda="2013-02-03" />
+	<vendaVendedor id="6" valorParticipacao="700" venda_id="5" vendedor_id="3" />
+	<vendaVendedor id="7" valorParticipacao="300" venda_id="5" vendedor_id="5" />
+	
+</dataset>

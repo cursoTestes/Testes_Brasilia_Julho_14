@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="64.381" errors="2" skipped="0" tests="2" name="br.com.k21.LoginAcceptanceTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin"/>
+    <property name="java.vm.version" value="19.0-b09"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\TurmaBrasiliaJulho2014\github\Testes_Brasilia_Julho_14\TestesAceitacao"/>
+    <property name="java.runtime.version" value="1.6.0_23-b05"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\cfc\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\TurmaBrasiliaJulho2014\workspace\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf2268795701358767546.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\Dell\DW WLAN Card;C:\Program Files\Common Files\Roxio Shared\DLLShared\;C:\Program Files\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files\Roxio\OEM\AudioCore\;C:\Program Files\Windows Live\Shared;C:\Program Files\TortoiseSVN\bin;c:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\OpenSSH\bin;C:\Program Files\QuickTime\QTSystem\;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\;C:\Program Files\TortoiseGit\bin;C:\ant\apache-ant-1.8.3\bin;C:\apache-maven-3.0.4\bin;C:\bin;C:\Program Files\Mercurial;C:\android-bundle\adt-bundle-windows-x86-20130219\sdk\tools;C:\Program Files\Java\jdk1.6.0_23\bin;C:\Program Files\Gallio\bin;C:\eclipse-jee-juno-SR1-win32\eclipse;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\cfc"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="cfc"/>
+    <property name="java.class.path" value="/C:/eclipse-jee-juno-SR1-win32/eclipse/configuration/org.eclipse.osgi/bundles/805/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_23\jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_23"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_23\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_23\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="C:\TurmaBrasiliaJulho2014\github\Testes_Brasilia_Julho_14\TestesAceitacao\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="33.653" classname="br.com.k21.LoginAcceptanceTest" name="teste_login_com_sucesso">
+    <error message="Unable to find element with id == loginForm:username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;cfc-windows&apos;, ip: &apos;172.16.88.244&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_23&apos;
+Session ID: d903b328-1859-4bd1-8f96-862834e767cd
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, elementScrollBehavior=0, javascriptEnabled=true, enablePersistentHover=true, ignoreZoomSetting=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=8, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, allowAsynchronousJavaScript=true, initialBrowserUrl=, handlesAlerts=true, nativeEvents=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with id == loginForm:username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;cfc-windows&apos;, ip: &apos;172.16.88.244&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_23&apos;
+Session ID: d903b328-1859-4bd1-8f96-862834e767cd
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, elementScrollBehavior=0, javascriptEnabled=true, enablePersistentHover=true, ignoreZoomSetting=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=8, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, allowAsynchronousJavaScript=true, initialBrowserUrl=, handlesAlerts=true, nativeEvents=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:389)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at br.com.k21.LoginAcceptanceTest.teste_login_com_sucesso(LoginAcceptanceTest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</error>
+    <system-err>17/07/2014 21:01:23 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.k21.Vendedor
+17/07/2014 21:01:23 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.k21.Vendedor on table Vendedor
+17/07/2014 21:01:23 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.k21.Venda
+17/07/2014 21:01:23 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.k21.Venda on table Venda
+17/07/2014 21:01:23 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.k21.VendaVendedor
+17/07/2014 21:01:23 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.k21.VendaVendedor on table VendaVendedor
+17/07/2014 21:01:23 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+17/07/2014 21:01:23 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+17/07/2014 21:01:23 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: true
+17/07/2014 21:01:23 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: net.sourceforge.jtds.jdbc.Driver at URL: jdbc:jtds:SQLServer://localhost:1433/dojoJava
+17/07/2014 21:01:23 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=sa, password=****, autocommit=true, release_mode=auto}
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: Microsoft SQL Server, version: 09.00.5000
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: jTDS Type 4 JDBC Driver for MS SQL Server and Sybase, version: 1.2.4
+17/07/2014 21:01:23 org.hibernate.dialect.Dialect &lt;init&gt;
+INFO: Using dialect: org.hibernate.dialect.SQLServerDialect
+17/07/2014 21:01:23 org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+17/07/2014 21:01:23 org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+17/07/2014 21:01:23 org.hibernate.hql.ast.ASTQueryTranslatorFactory &lt;init&gt;
+INFO: Using ASTQueryTranslatorFactory
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: enabled
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+17/07/2014 21:01:23 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+17/07/2014 21:01:23 org.hibernate.impl.SessionFactoryImpl &lt;init&gt;
+INFO: building session factory
+17/07/2014 21:01:23 org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+17/07/2014 21:01:23 org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: Running hbm2ddl schema export
+17/07/2014 21:01:23 org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: exporting generated schema to database
+17/07/2014 21:01:23 org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: schema export complete
+Started InternetExplorerDriver server (32-bit)
+2.31.0.0
+Listening on port 39454
+17/07/2014 21:01:32 org.apache.http.impl.client.DefaultRequestDirector tryExecute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
+17/07/2014 21:01:32 org.apache.http.impl.client.DefaultRequestDirector tryExecute
+INFO: Retrying request
+</system-err>
+  </testcase>
+  <testcase time="30.1" classname="br.com.k21.LoginAcceptanceTest" name="teste_login_existente_mas_com_senha_errada_gera_entrada_na_tabela_FalhaLogin_e_exibe_mensagem">
+    <error message="Unable to find element with id == loginForm:username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;cfc-windows&apos;, ip: &apos;172.16.88.244&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_23&apos;
+Session ID: 47628869-e086-4f4c-b70e-254e0ba15d84
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, elementScrollBehavior=0, javascriptEnabled=true, enablePersistentHover=true, ignoreZoomSetting=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=8, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, allowAsynchronousJavaScript=true, initialBrowserUrl=, handlesAlerts=true, nativeEvents=true, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with id == loginForm:username (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;cfc-windows&apos;, ip: &apos;172.16.88.244&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_23&apos;
+Session ID: 47628869-e086-4f4c-b70e-254e0ba15d84
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, elementScrollBehavior=0, javascriptEnabled=true, enablePersistentHover=true, ignoreZoomSetting=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=8, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, allowAsynchronousJavaScript=true, initialBrowserUrl=, handlesAlerts=true, nativeEvents=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:389)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at br.com.k21.LoginAcceptanceTest.teste_login_existente_mas_com_senha_errada_gera_entrada_na_tabela_FalhaLogin_e_exibe_mensagem(LoginAcceptanceTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</error>
+    <system-err>17/07/2014 21:01:57 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.k21.Vendedor
+17/07/2014 21:01:57 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.k21.Vendedor on table Vendedor
+17/07/2014 21:01:57 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.k21.Venda
+17/07/2014 21:01:57 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.k21.Venda on table Venda
+17/07/2014 21:01:57 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.k21.VendaVendedor
+17/07/2014 21:01:57 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.k21.VendaVendedor on table VendaVendedor
+17/07/2014 21:01:57 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+17/07/2014 21:01:57 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+17/07/2014 21:01:57 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: true
+17/07/2014 21:01:57 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: net.sourceforge.jtds.jdbc.Driver at URL: jdbc:jtds:SQLServer://localhost:1433/dojoJava
+17/07/2014 21:01:57 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=sa, password=****, autocommit=true, release_mode=auto}
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: Microsoft SQL Server, version: 09.00.5000
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: jTDS Type 4 JDBC Driver for MS SQL Server and Sybase, version: 1.2.4
+17/07/2014 21:01:57 org.hibernate.dialect.Dialect &lt;init&gt;
+INFO: Using dialect: org.hibernate.dialect.SQLServerDialect
+17/07/2014 21:01:57 org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+17/07/2014 21:01:57 org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+17/07/2014 21:01:57 org.hibernate.hql.ast.ASTQueryTranslatorFactory &lt;init&gt;
+INFO: Using ASTQueryTranslatorFactory
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: enabled
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+17/07/2014 21:01:57 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+17/07/2014 21:01:57 org.hibernate.impl.SessionFactoryImpl &lt;init&gt;
+INFO: building session factory
+17/07/2014 21:01:57 org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+17/07/2014 21:01:57 org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: Running hbm2ddl schema export
+17/07/2014 21:01:57 org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: exporting generated schema to database
+17/07/2014 21:01:57 org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: schema export complete
+Started InternetExplorerDriver server (32-bit)
+2.31.0.0
+Listening on port 4510
+17/07/2014 21:02:05 org.apache.http.impl.client.DefaultRequestDirector tryExecute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
+17/07/2014 21:02:05 org.apache.http.impl.client.DefaultRequestDirector tryExecute
+INFO: Retrying request
+</system-err>
+  </testcase>
+</testsuite>
